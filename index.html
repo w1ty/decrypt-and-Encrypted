@@ -1,0 +1,20 @@
+<html dir="rtl">
+<head>
+<script src="main.js">
+</script>
+</head>
+<body>
+<h1>محول النص إلى شفرة</h1>
+<p>ادخل النص الذي تريد تحويله إلى شفرة:</p>
+<input type="text" id="input">
+<p>اختر وضع التشفير أو فك التشفير:</p>
+<!-- إضافة عنصر الاختيار -->
+<select id="mode">
+  <option value="تشفير">تشفير</option>
+  <option value="فك التشفير">فك التشفير</option>
+</select>
+<button onclick="convertToCode()">تحويل</button>
+<p>هذه هي الشفرة المقابلة للنص:</p>
+<p id="output"></p>
+</body>
+</html>
