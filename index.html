@@ -14,7 +14,7 @@
     <h1 class="d-flex align-items-center justify-content-center">محول النص إلى شفرة</h1>
     <p class="d-flex align-items-center justify-content-center">ادخل النص الذي تريد تحويله إلى شفرة:</p>
     <div action="" class="form-control">
-      <input type="text" class="mb-3" id="input">
+      <input type="text" class=" lmb-3" id="input">
       <p>اختر وضع التشفير أو فك التشفير:</p>
       <!-- إضافة عنصر الاختيار -->
       <select id="mode" class="form-select mb-3" aria-label="Default select example">
@@ -23,7 +23,12 @@
       </select>
       <button class="btn btn-dark" onclick="convertToCode()">تحويل</button>
       <p>هذه هي الشفرة المقابلة للنص:</p>
-      <p id="output"></p>
+      
+      
+      <textarea class="mb-3" rows="7" id="output" ></textarea>
+      
+      
+     <!--  <button class="btn btn-dark" onclick="copyText()">اضغط هنا نسخ النص او الشفرة</button> -->
     </div>
   </div>
 </body>
